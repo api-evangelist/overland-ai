@@ -1,7 +1,30 @@
 aid: overland-ai
-name: Overland Ai
-description: Overland Ai is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/overland-ai.png
+name: Overland AI
+description: >-
+  Overland AI is a Seattle- and Washington, DC-based defense technology company
+  building autonomous ground vehicle systems for military and national-security
+  applications. Its product line spans ULTRA (a fully autonomous tactical
+  vehicle with modular payloads), OverDrive (an off-road autonomy stack for
+  tactical maneuver in GPS- and comms-denied environments), OverWatch (a
+  command-and-control platform for single-operator control of multiple ground
+  vehicles, which the company describes as offering an open API for integration
+  with existing C2 systems), and SPARK (modular hardware that adds autonomous
+  mobility to existing platforms). Overland AI is a portfolio company of 8VC.
+  The company publishes no public developer portal, API reference, or OpenAPI
+  specification; its "open API" is referenced only in marketing material and
+  integration is handled through direct contact.
 url: https://raw.githubusercontent.com/api-evangelist/overland-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defense
+- Autonomy
+- Robotics
+- Autonomous Vehicles
+- Ground Vehicles
+- National Security
+- Command and Control
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/overland-ai-domain-security.yml
 - type: Website
   url: https://overland.ai
+- type: Blog
+  url: https://overland.ai/news
+- type: Support
+  url: https://overland.ai/contact
+- type: PrivacyPolicy
+  url: https://overland.ai/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
